@@ -19,7 +19,7 @@ class SignupScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'TikTok Clone',
+              'TikTok ',
               style: TextStyle(
                   fontSize: 35,
                   color: buttonColor,
@@ -43,9 +43,11 @@ class SignupScreen extends StatelessWidget {
                 Positioned(
                   bottom: -10,
                   left: 80,
-                  child: IconButton(onPressed: () {
-                    print('pick image'); },
-                    icon: const Icon(Icons.add_a_photo,),
+                  child: IconButton(
+                    onPressed: () => authController.pickImage(),
+                    icon: const Icon(
+                      Icons.add_a_photo,
+                    ),
                   ),
                 ),
               ],
@@ -102,9 +104,12 @@ class SignupScreen extends StatelessWidget {
                   color: buttonColor,
                   borderRadius: const BorderRadius.all(Radius.circular(5))),
               child: InkWell(
-                onTap: () {
-                  print('register user');
-                },
+                onTap: () => authController.registerUser(
+                  _usernameController.text,
+                  _emailController.text,
+                  _passwordController.text,
+                  authController.profilePhoto,
+                ),
                 child: const Center(
                     child: Text(
                   'Register',
