@@ -16,6 +16,8 @@ class ConfirmScreen extends StatefulWidget {
 
 class _ConfirmScreenState extends State<ConfirmScreen> {
   late VideoPlayerController controller;
+  TextEditingController songController = TextEditingController();
+  TextEditingController captionController = TextEditingController();
   @override
   void initState() {
     // TODO: implement initState
