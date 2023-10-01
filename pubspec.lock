@@ -5,10 +5,10 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "405666cd3cf0ee0a48d21ec67e65406aad2c726d9fa58840d3375e7bdcd32a07"
+      sha256: ae92f5d747aee634b87f89d9946000c2de774be1d6ac3e58268224348cd0101a
       url: "https://pub.dev"
     source: hosted
-    version: "60.0.0"
+    version: "61.0.0"
   _flutterfire_internals:
     dependency: transitive
     description:
@@ -21,10 +21,10 @@ packages:
     dependency: transitive
     description:
       name: analyzer
-      sha256: "1952250bd005bacb895a01bf1b4dc00e3ba1c526cf47dca54dfe24979c65f5b3"
+      sha256: ea3d8652bda62982addfd92fdc2d0214e5f82e43325104990d4f4c4a2a313562
       url: "https://pub.dev"
     source: hosted
-    version: "5.12.0"
+    version: "5.13.0"
   ansicolor:
     dependency: transitive
     description:
@@ -149,10 +149,10 @@ packages:
     dependency: transitive
     description:
       name: collection
-      sha256: "4a07be6cb69c84d677a6c3096fcf960cc3285a8330b4603e0d463d15d9bd934c"
+      sha256: f092b211a4319e98e5ff58223576de6c2803db36221657b46c82574721240687
       url: "https://pub.dev"
     source: hosted
-    version: "1.17.1"
+    version: "1.17.2"
   convert:
     dependency: transitive
     description:
@@ -185,6 +185,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
+  csslib:
+    dependency: transitive
+    description:
+      name: csslib
+      sha256: "706b5707578e0c1b4b7550f64078f0a0f19dec3f50a178ffae7006b0a9ca58fb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   csv:
     dependency: transitive
     description:
@@ -221,18 +229,18 @@ packages:
     dependency: transitive
     description:
       name: dcli
-      sha256: "036afa6aa442a27ebdddc765b53d5d8786e9600c0a25de8d035f136fbb2ad3b2"
+      sha256: d2131b88fb076a55f53191bf7b92f363a55057098ac99809ac2ebe5926e7fd9d
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.4"
+    version: "2.3.0"
   dcli_core:
     dependency: transitive
     description:
       name: dcli_core
-      sha256: "98eaf8975d47abd990ed58d96b2442abcd541eb627943ffb20ce23d734c18c5e"
+      sha256: "2d5281792dd2a4bf8b612335fd530e91d14f3829debde841720ed9a7552b3a27"
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.4"
+    version: "2.3.0"
   equatable:
     dependency: transitive
     description:
@@ -448,6 +456,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
+  html:
+    dependency: transitive
+    description:
+      name: html
+      sha256: "3a7812d5bcd2894edf53dfaf8cd640876cf6cef50a8f238745c8b8120ea74d3a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.15.4"
   http:
     dependency: transitive
     description:
@@ -604,18 +620,18 @@ packages:
     dependency: transitive
     description:
       name: matcher
-      sha256: "6501fbd55da300384b768785b83e5ce66991266cec21af89ab9ae7f5ce1c4cbb"
+      sha256: "1803e76e6653768d64ed8ff2e1e67bea3ad4b923eb5c56a295c3e634bad5960e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.12.15"
+    version: "0.12.16"
   material_color_utilities:
     dependency: transitive
     description:
       name: material_color_utilities
-      sha256: "586678f20e112219ed0f73215f01bcdf1d769824ba2ebae45ad918a9bfde9bdb"
+      sha256: "9528f2f296073ff54cb9fee677df673ace1218163c3bc7628093e7eed5203d41"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.0"
+    version: "0.5.0"
   meta:
     dependency: transitive
     description:
@@ -756,10 +772,10 @@ packages:
     dependency: transitive
     description:
       name: scope
-      sha256: "80cf1cb727791fdaaa4131817974a6084815ed59b9ab02ef352c3a1badea488b"
+      sha256: e0c880d8f0db2ffd2accd63eeb02396748f3b8a2f71bce4b7d3f8dab75fc8a74
       url: "https://pub.dev"
     source: hosted
-    version: "4.1.0"
+    version: "3.0.0"
   settings_yaml:
     dependency: transitive
     description:
@@ -889,18 +905,18 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: daadc9baabec998b062c9091525aa95786508b1c48e9c30f1f891b8bf6ff2e64
+      sha256: "75760ffd7786fffdfb9597c35c5b27eaeec82be8edfb6d71d32651128ed7aab8"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.2"
+    version: "0.6.0"
   test_core:
     dependency: transitive
     description:
       name: test_core
-      sha256: "3642b184882f79e76ca57a9230fb971e494c3c1fd09c21ae3083ce891bcc0aa1"
+      sha256: "99806e9e6d95c7b059b7a0fc08f07fc53fabe54a829497f0d9676299f1e8637e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.5.2"
+    version: "0.5.3"
   typed_data:
     dependency: transitive
     description:
@@ -949,6 +965,46 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
+  video_player:
+    dependency: "direct main"
+    description:
+      name: video_player
+      sha256: "74b86e63529cf5885130c639d74cd2f9232e7c8a66cbecbddd1dcb9dbd060d1e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.7.2"
+  video_player_android:
+    dependency: transitive
+    description:
+      name: video_player_android
+      sha256: "3fe89ab07fdbce786e7eb25b58532d6eaf189ceddc091cb66cba712f8d9e8e55"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.10"
+  video_player_avfoundation:
+    dependency: transitive
+    description:
+      name: video_player_avfoundation
+      sha256: "6387c2de77763b45104256b3b00b660089be4f909ded8631457dc11bf635e38f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.5.0"
+  video_player_platform_interface:
+    dependency: transitive
+    description:
+      name: video_player_platform_interface
+      sha256: be72301bf2c0150ab35a8c34d66e5a99de525f6de1e8d27c0672b836fe48f73a
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.2.1"
+  video_player_web:
+    dependency: transitive
+    description:
+      name: video_player_web
+      sha256: "2dd24f7ba46bfb5d070e9c795001db95e0ca5f2a3d025e98f287c10c9f0fd62f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.1"
   vm_service:
     dependency: transitive
     description:
@@ -965,6 +1021,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.0"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: dc8ccd225a2005c1be616fe02951e2e342092edf968cf0844220383757ef8f10
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.4-beta"
   web_socket_channel:
     dependency: transitive
     description:
@@ -998,5 +1062,5 @@ packages:
     source: hosted
     version: "3.1.2"
 sdks:
-  dart: ">=3.1.0-63.1.beta <4.0.0"
+  dart: ">=3.1.0 <4.0.0"
   flutter: ">=3.13.0"
