@@ -60,7 +60,7 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                       icon: Icons.music_note,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Container(
@@ -72,6 +72,15 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
                       icon: Icons.closed_caption,
                     ),
                   ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  ElevatedButton(
+                      onPressed: () {},
+                      child: const Text(
+                        'Share!',
+                        style: TextStyle(fontSize: 20, color: Colors.white),
+                      ))
                 ],
               ),
             )
