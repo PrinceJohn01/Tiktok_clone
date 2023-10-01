@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:tiktok_clone/views/widgets/text_input_field.dart';
 import 'package:video_player/video_player.dart';
 
 class ConfirmScreen extends StatefulWidget {
@@ -45,10 +46,33 @@ class _ConfirmScreenState extends State<ConfirmScreen> {
             const SizedBox(
               height: 30,
             ),
-            const SingleChildScrollView(
+            SingleChildScrollView(
               scrollDirection: Axis.vertical,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 10),
+                    width: MediaQuery.of(context).size.width - 20,
+                    child: TextInputField(
+                      controller: songController,
+                      labelText: 'Song Name',
+                      icon: Icons.music_note,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 10),
+                    width: MediaQuery.of(context).size.width - 20,
+                    child: TextInputField(
+                      controller: captionController,
+                      labelText: 'Caption',
+                      icon: Icons.closed_caption,
+                    ),
+                  ),
+                ],
               ),
             )
           ],
